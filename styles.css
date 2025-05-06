@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,6 +18,7 @@ header {
 
 main {
     padding: 2em;
+    margin-bottom: 60px; /* 根据实际情况调整页脚高度，避免内容被页脚遮挡 */
 }
 
 section {
@@ -62,4 +67,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    height: 60px; /* 根据实际情况设置合适的高度 */
 }
